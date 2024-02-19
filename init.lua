@@ -1,3 +1,9 @@
+
+vim.api.nvim_set_keymap('t', '<Esc>', '<C-\\><C-n>', {noremap = true})
+vim.api.nvim_set_hl(0, 'Normal', {bg = nil})
+vim.g.copilot_node_command = "~/.nvm/versions/node/v18.19.1/bin/node"
+
+
 return {
   -- Configure AstroNvim updates
   updater = {
